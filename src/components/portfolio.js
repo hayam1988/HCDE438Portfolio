@@ -8,7 +8,6 @@ export default class Porfolio extends Component {
   state = {
     modal: {}
   }
-
   closeModel = () => {
       this.setState({model:{}})
 }
@@ -54,7 +53,6 @@ export default class Porfolio extends Component {
           <p>{modal.fullDescription}</p>
           <a href = {modal.githublink} target = "_blank" rel = "noopener noreferrer">
           <i className ="fa fa-github"></i> &nbsp;
-
           </a>
           </div>
 
