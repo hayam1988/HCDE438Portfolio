@@ -1,5 +1,5 @@
 header {
-  background: #161415 url(./header.jpg) no-repeat top center;
+  background: #161415 url(./header2.jpg) no-repeat top center;
   background-size: cover !important;
 	-webkit-background-size: cover !important;
 }
@@ -27,4 +27,11 @@ header {
 -moz-box-shadow: 5px 8px 5px 0px rgba(222,222,222,1);
 box-shadow: 5px 8px 5px 0px rgba(222,222,222,1);
 
+}
+
+
+.resume-link{
+
+  display: flex;
+  justify-content: center;
 }
