@@ -1,9 +1,9 @@
 {
-  "name": "HCDE438Portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+ 
   "dependencies": {
-    "gh-pages": "^2.1.0",
     "react": "^16.8.6",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-awesome-modal": "^2.0.5",
@@ -19,8 +19,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
-  "homepage": "https://hayam1988.github.io/HCDE438Portfolio/",
+  "homepage": "https://hayam1988.github.io/HCDE438Portfolio",
   "eslintConfig": {
     "extends": "react-app"
   },
